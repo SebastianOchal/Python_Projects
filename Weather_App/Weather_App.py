@@ -7,7 +7,7 @@ weather_data = {
 }
 
 def Display_weather():
-    
+
     user_request = input("What City would you like the weather for?:")
     location = user_request.lower()
 
