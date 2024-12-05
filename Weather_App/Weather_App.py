@@ -25,5 +25,11 @@ def Display_weather():
             print(f"Wind Speed:  |{weather_data[city]["Wind_Speed"]}|")
             print(50*"=")
     
+    check_again = input("Would you like to check a Different City? Yes or No: ")
+    answer = check_again.lower()
+    if answer == "yes":
+        Display_weather()
+    else:
+        print("ok bye")
 
 Display_weather()
