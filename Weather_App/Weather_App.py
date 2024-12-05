@@ -17,6 +17,13 @@ def Display_weather():
 
     for  city in weather_data:
         if location == city.lower():
+            print(50*"=")
             print(f"City: {city}")
+            print(50*"=")
+            print(f"Temperature: |{weather_data[city]["Temperature"]}|")
+            print(f"Conditions:  |{weather_data[city]["Conditions"]}|")
+            print(f"Wind Speed:  |{weather_data[city]["Wind_Speed"]}|")
+            print(50*"=")
+    
 
 Display_weather()
