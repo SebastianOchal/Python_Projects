@@ -7,7 +7,11 @@ weather_data = {
 }
 
 def Display_weather():
-
+    print(50*"=")
+    print("Here are the avalible cities, Type their name to get the weather data")
+    for data in weather_data:
+        print(data)
+    print(50*"=")
     user_request = input("What City would you like the weather for?:")
     location = user_request.lower()
 
