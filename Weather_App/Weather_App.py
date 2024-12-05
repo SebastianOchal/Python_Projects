@@ -1,9 +1,9 @@
 weather_data = {
-    "London":{"Temperature":"15°C", "Conditions":"Cloudy","Wind_Speed":"5km/h"},
-    "Paris":{},
-    "Berlin":{},
-    "Dublin":{},
-    "Madrid":{}
+    "London":{"Temperature":"14°C", "Conditions":"Heavy Rain","Wind_Speed":"16km/h"},
+    "Paris":{"Temperature":"7°C", "Conditions":"Rain","Wind_Speed":"16km/h"},
+    "Berlin":{"Temperature":"5°C", "Conditions":"Partly Sunny","Wind_Speed":"11km/h"},
+    "Dublin":{"Temperature":"10°C", "Conditions":"Cloudy","Wind_Speed":"17km/h"},
+    "Madrid":{"Temperature":"9°C", "Conditions":"Sunny","Wind_Speed":"3km/h"}
 }
 
 def Display_weather():
